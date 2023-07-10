@@ -132,15 +132,21 @@
     <section class="contact" id="contact">
         <h2 class="heading">Contact <span>Me!</span></h2>
 
-        <form action="mailto:nitesh.21it450@rtu.ac.in" method="post" enctype="text/plain">
-            <div class="input-box">
-                <input type="text" name="Name" placeholder="Name">
-                <input type="email" name="Email" placeholder="Email Id">
-            </div>
-            <textarea name="Message" id="" cols="30" rows="10" placeholder="Message"></textarea>
-            <input type="submit" value="Send Message" class="btn">
-            
-        </form>
+       <form
+  action="https://formspree.io/f/mnqkqzzl"
+  method="POST"
+>
+  <label>
+    Your email:
+    <input type="email" name="email">
+  </label>
+  <label>
+    Your message:
+    <textarea name="message"></textarea>
+  </label>
+  <!-- your other form fields go here -->
+  <button type="submit">Send</button>
+</form>
     </section>
 
     <!--Footer -->
